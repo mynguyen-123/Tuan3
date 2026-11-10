@@ -1,0 +1,54 @@
+header, footer {
+  color: white;
+  background-color: #213643;
+}
+nav {
+  background-color: #728B96;
+}
+
+h1, h2, h3 {
+ font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+body {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+
+#reviews {
+   border-bottom: solid 3pt #213643;
+   color: #ed8030;
+}
+.first {
+   color: #728B96;
+   font-style: italic;
+}
+/* Bước 2: Định dạng liên kết chưa bấm và đã bấm */
+a:link {
+    font-weight: bold;
+    color: #47B3D7;
+}
+
+a:visited {
+    color: #BB78FF;
+}
+
+/* Bước 4: Hiệu ứng khi rê chuột vào liên kết */
+a:hover {
+    background-color: #FFFF99;
+}
+
+/* Bước 5, 6, 7: Chuyển danh sách menu dọc thành menu dàn hàng ngang */
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 1em;
+}
+
+/* Bước 8: Thêm khoảng đệm bên trong thẻ nav */
+nav {
+    padding: 0.25em;
+}
+
+/* Bước 9: Mở rộng vùng tương tác nhấp chuột cho thẻ liên kết */
+nav a {
+    padding: 0.25em;
+}

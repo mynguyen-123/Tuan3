@@ -1,0 +1,186 @@
+header, footer, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   border: 0;
+}
+
+header, footer {
+  color: #213643;
+  background-color: white;
+}
+nav {
+  background-color: #728B96;
+}
+
+h1, h2, h3 {
+ font-family: Georgia, Cambria, "Times New Roman", cursive;
+}
+h1 { font-size: 250%; }
+h2 { font-size: 150%; }
+h3 { font-size: 125% } 
+
+body {
+ font-family: Helvetica, Arial, sans-serif;
+}
+
+#reviews {
+   border-bottom: solid 3pt #213643;
+   color: #ed8030;
+}
+.first {
+   color: #728B96;
+   font-style: italic;
+}
+
+a:link {
+   font-weight: bold;
+   color: #47B3D7;
+}
+a:visited {
+   color: #BB78FF;
+}
+a:hover {
+   background-color: #FFFFCC;
+}
+
+nav ul li {
+   list-style: none;
+   display: inline;
+   margin: 1em;
+}
+nav {
+   padding: 0.25em;
+}
+nav a {
+   padding: 0.25em;
+}
+
+figure {
+   margin: 2em;
+   background-color: #EEEEEE;
+   padding: 1.5em;
+   border: solid 1px #999999;
+}
+h3+p+p { 
+   margin: 2em;
+}
+
+figure div {
+   margin-top: 0.25em;
+   font-size: 70%;
+   padding: 0.5em;
+   width: 485px;
+   background-color: #9FAAB0;
+   border: solid 1px #999999;
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   background-image: url(images/gray-gradient.gif);
+   background-repeat: repeat-x;
+}
+/* 1. CSS RESET: Xóa khoảng cách mặc định của trình duyệt */
+header, footer, nav, main, article, section, figure, figcaption, 
+h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* 2. THIẾT LẬP CHUNG CHO TOÀN TRANG (BODY) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%; /* Kích thước chữ chuẩn (16px) */
+    color: #333333;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+/* 3. TIÊU ĐỀ HEADINGS */
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+h3#reviews {
+    font-size: 1.2rem;
+    color: #D96B27; /* Màu cam gạch cho tiêu đề Reviews */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* 4. THANH ĐIỀU HƯỚNG (NAV MENU BUTTONS) */
+nav ul {
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: #47B3D7; /* Màu xanh cyan cho nút */
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 6px 14px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    background-color: #2E8DAE; /* Đổi màu xanh đậm hơn khi rê chuột */
+}
+
+/* 5. NỘI DUNG CHÍNH (MAIN & REVIEWS) */
+main div {
+    margin-bottom: 15px;
+}
+
+p.first {
+    font-size: 0.875rem; /* 14px */
+    color: #777777;
+    font-style: italic;
+}
+
+p.first time {
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #DDDDDD;
+    margin: 15px 0;
+}
+
+/* 6. CHÂN TRANG (FOOTER) */
+footer {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #666666;
+}
+
+footer a {
+    color: #47B3D7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
